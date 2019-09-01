@@ -1,0 +1,12 @@
+type Station {
+    id: ID !
+    name: String !
+    firmwareVersion: String !
+    countryIso: String !
+    lcpName: String !
+}
+
+type Query {
+    findAllStations: [Station]!
+    countStations: Long!
+}
