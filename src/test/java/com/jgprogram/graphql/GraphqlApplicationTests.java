@@ -1,4 +1,4 @@
-package com.ejgprogram.graphql;
+package com.jgprogram.graphql;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

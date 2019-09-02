@@ -1,4 +1,4 @@
-package com.ejgprogram.graphql;
+package com.jgprogram.graphql;
 
 import com.coxautodev.graphql.tools.GraphQLQueryResolver;
 import org.springframework.stereotype.Component;

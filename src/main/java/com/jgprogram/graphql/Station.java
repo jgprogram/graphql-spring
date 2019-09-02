@@ -1,4 +1,4 @@
-package com.ejgprogram.graphql;
+package com.jgprogram.graphql;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
