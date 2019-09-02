@@ -1,18 +1,15 @@
 package com.jgprogram.graphql;
 
-import lombok.AccessLevel;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import javax.persistence.*;
 
 @Entity
 @Table(name = "station")
-@Getter
+@Data
 @AllArgsConstructor
 @NoArgsConstructor(access = AccessLevel.PACKAGE)
-public class Station {
+class Station {
 
     @Id
     @GeneratedValue

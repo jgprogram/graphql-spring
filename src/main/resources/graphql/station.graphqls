@@ -8,5 +8,6 @@ type Station {
 
 type Query {
     findAllStations: [Station]!
+    findStationsByLcpAndFirmware(lcpName: String, firmware: String): [Station]!
     countStations: Long!
 }
