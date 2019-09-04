@@ -1,6 +1,6 @@
 # Spring boot and GraphQL
 
-# Runtime requirements
+## Runtime requirements
 - Java 11
 - 8080 port free
 
