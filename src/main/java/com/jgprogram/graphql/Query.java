@@ -17,7 +17,7 @@ public class Query implements GraphQLQueryResolver {
     }
 
     public Iterable<Station> findStationsByLcpAndFirmware(String lcpName, String firmware) {
-        return stationRepository.findByLcpNameAndFirmwareVersionOrderByName(lcpName, firmware);
+        return stationRepository.findByLcpNameContainingAndFirmwareVersionContainingOrderByName(lcpName, firmware);
     }
 
     public long countStations() {
