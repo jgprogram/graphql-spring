@@ -1,3 +1,9 @@
+# Spring boot and GraphQL
+
+# Runtime requirements
+- Java 11
+- 8080 port free
+
 ## Open h2 console
 Go to http://localhost:8080/h2-console
 
